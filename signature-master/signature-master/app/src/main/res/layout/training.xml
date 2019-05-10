@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+		android:background="@android:color/background_light"
+		android:orientation="horizontal">
+
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:orientation="vertical">
+
+			<EditText
+				android:id="@+id/EditText1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="10sp"
+				android:layout_weight="1"
+				android:background="#ffffff"
+				android:focusable="false"
+				android:text="@string/sign5signature"
+				android:textColor="#000000"
+				android:textSize="6.5pt"></EditText>
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_weight="1"
+				android:orientation="horizontal">
+
+				<LinearLayout
+					android:id="@+id/linearLayout1"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:layout_weight="1"
+					android:orientation="vertical">
+
+					<Button
+						android:id="@+id/buttoncapture"
+						android:layout_width="100sp"
+						android:layout_height="50sp"
+						android:layout_gravity="center"
+						android:gravity="center"
+						android:text="@string/capture"></Button>
+				</LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/linearLayout1"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:layout_weight="1"
+					android:orientation="vertical">
+
+					<Button
+						android:id="@+id/buttonreplay"
+						android:layout_width="100sp"
+						android:layout_height="50sp"
+						android:layout_gravity="center"
+						android:gravity="center"
+						android:text="@string/replay"></Button>
+				</LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/linearLayout1"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:layout_weight="1"
+					android:orientation="vertical">
+
+					<Button
+						android:id="@+id/buttonsave"
+						android:layout_width="100sp"
+						android:layout_height="50sp"
+						android:layout_gravity="center"
+						android:gravity="center"
+						android:text="@string/save"></Button>
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="0.25"
+		android:background="@android:color/background_light"
+		android:orientation="horizontal"></LinearLayout>
+
+</LinearLayout>

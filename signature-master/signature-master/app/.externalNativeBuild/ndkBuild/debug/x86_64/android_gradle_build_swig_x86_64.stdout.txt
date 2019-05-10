@@ -1,0 +1,15 @@
+[x86_64] Compile++      : swig <= dtw.cpp
+[x86_64] Compile++      : swig <= global_signature.cpp
+[x86_64] Compile++      : swig <= gmm.cpp
+[x86_64] Compile++      : swig <= GMM_SHORT.cpp
+[x86_64] Compile++      : swig <= hmm.cpp
+[x86_64] Compile++      : swig <= kmeans.cpp
+[x86_64] Compile++      : swig <= memalc.cpp
+[x86_64] Compile++      : swig <= Obs.cpp
+[x86_64] Compile++      : swig <= pca.cpp
+[x86_64] Compile++      : swig <= signature.cpp
+[x86_64] Compile++      : swig <= signature_wrap.cpp
+[x86_64] Compile++      : swig <= statistics.cpp
+[x86_64] Compile++      : swig <= stdafx.cpp
+[x86_64] StaticLibrary  : libstdc++.a
+[x86_64] SharedLibrary  : libswig.so

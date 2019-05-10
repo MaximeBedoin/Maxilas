@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello Android! I am here !</string>
+    <string name="app_name">SignMobile</string>
+    <string name="signature_verification">SIGNATURE VERIFICATION\nDEMONSTRATION</string>
+    <string name="demonstration">DEMONSTRATION</string>
+    <string name="accueil">Please choose a function of the Signature Verification Program!\n\nYou can verify your ID or train new user\'s model!\n</string>
+    <string name="choose_an_id">Choose an ID</string>
+    <string name="number_of_signatures">Number of signatures</string>
+    <string name="planet_prompt">Choose a planet</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
+    <string name="capture">Capture</string>
+    <string name="save">Save</string>
+    <string name="entrop">Quality</string>
+    <string name="unit"> bits/second</string>
+    <string name="replay">Replay</string>
+    <string name="sign5signature">Please sign 5 signatures for the training base!</string>
+    <string name="enter_username">Enter your username</string>
+    <string-array name="name_array">
+    </string-array>
+        <string name="new_user">New User</string>
+        <string name="verify">Verify</string>
+        <string name="retrain"> Retrain </string>
+        <string name="export"> Export </string>
+        <string name="delete">Delete</string>
+        <string name="help">Help</string>
+        <string name="about">About</string>
+        <string name="version">\n\n\nSignMobile Version 2019\n\n</string>
+        <string name="program_use">This program demonstrates the identity verification using online hand-written signature. The algorithms are based on the Hidden Markov Model. It\'s written in C++.</string>
+        <string name="for_question"></string>
+    
+</resources>

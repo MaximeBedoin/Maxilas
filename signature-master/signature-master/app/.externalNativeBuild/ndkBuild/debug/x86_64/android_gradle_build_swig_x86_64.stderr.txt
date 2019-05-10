@@ -1,0 +1,133 @@
+In file included from C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/dtw.cpp:1:
+C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/stdafx.h:8:17: warning: '#pragma comment linker' ignored [-Wignored-pragmas]
+#pragma comment(linker, "/nodefaultlib:libc.lib")
+                ^
+C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/stdafx.h:9:17: warning: '#pragma comment linker' ignored [-Wignored-pragmas]
+#pragma comment(linker, "/nodefaultlib:libcd.lib")
+                ^
+2 warnings generated.
+In file included from C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/global_signature.cpp:1:
+C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/stdafx.h:8:17: warning: '#pragma comment linker' ignored [-Wignored-pragmas]
+#pragma comment(linker, "/nodefaultlib:libc.lib")
+                ^
+C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/stdafx.h:9:17: warning: '#pragma comment linker' ignored [-Wignored-pragmas]
+#pragma comment(linker, "/nodefaultlib:libcd.lib")
+                ^
+In file included from C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/global_signature.cpp:2:
+C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/global_signature.h:5:2: warning: 'GLOBAL_SIGNATURE_' is used as a header guard here, followed by #define of a different macro [-Wheader-guard]
+#if !defined(GLOBAL_SIGNATURE_)
+ ^~
+C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/global_signature.h:6:9: note: 'GLOBAL_SIGNATURE_H' is defined here; did you mean 'GLOBAL_SIGNATURE_'?
+#define GLOBAL_SIGNATURE_H
+        ^~~~~~~~~~~~~~~~~~
+        GLOBAL_SIGNATURE_
+3 warnings generated.
+In file included from C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/gmm.cpp:1:
+C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/stdafx.h:8:17: warning: '#pragma comment linker' ignored [-Wignored-pragmas]
+#pragma comment(linker, "/nodefaultlib:libc.lib")
+                ^
+C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/stdafx.h:9:17: warning: '#pragma comment linker' ignored [-Wignored-pragmas]
+#pragma comment(linker, "/nodefaultlib:libcd.lib")
+                ^
+C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/gmm.cpp:61:62: warning: format specifies type 'int *' but the argument has type 'bool *' [-Wformat]
+                        fscanf(ifs, "%d\n%d\n%d\n%lf\n%lf\n%d\n", &covMatrixType, &bRandomInit, 
+                                         ~~                                       ^~~~~~~~~~~~
+C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/gmm.cpp:62:5: warning: format specifies type 'int *' but the argument has type 'bool *' [-Wformat]
+                                &bParameterNormalization, &parameterStandardDeviation, &endAccuracy, 
+                                ^~~~~~~~~~~~~~~~~~~~~~~~
+C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/gmm.cpp:262:41: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+                        printf("matrice de covariance singuli<E8>re\n"); return false;
+                                                             ^~~~
+5 warnings generated.
+In file included from C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/GMM_SHORT.cpp:19:
+C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/stdafx.h:8:17: warning: '#pragma comment linker' ignored [-Wignored-pragmas]
+#pragma comment(linker, "/nodefaultlib:libc.lib")
+                ^
+C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/stdafx.h:9:17: warning: '#pragma comment linker' ignored [-Wignored-pragmas]
+#pragma comment(linker, "/nodefaultlib:libcd.lib")
+                ^
+2 warnings generated.
+In file included from C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/hmm.cpp:1:
+C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/stdafx.h:8:17: warning: '#pragma comment linker' ignored [-Wignored-pragmas]
+#pragma comment(linker, "/nodefaultlib:libc.lib")
+                ^
+C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/stdafx.h:9:17: warning: '#pragma comment linker' ignored [-Wignored-pragmas]
+#pragma comment(linker, "/nodefaultlib:libcd.lib")
+                ^
+C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/hmm.cpp:119:56: warning: format specifies type 'int *' but the argument has type 'bool *' [-Wformat]
+                        fscanf(ifs, "%d%d%d%d", &transType, &covMatrixType, &bRandomInit, &bParameterNormalization);
+                                         ~~                                 ^~~~~~~~~~~~
+C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/hmm.cpp:119:70: warning: format specifies type 'int *' but the argument has type 'bool *' [-Wformat]
+                        fscanf(ifs, "%d%d%d%d", &transType, &covMatrixType, &bRandomInit, &bParameterNormalization);
+                                           ~~                                             ^~~~~~~~~~~~~~~~~~~~~~~~
+4 warnings generated.
+In file included from C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/kmeans.cpp:1:
+C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/stdafx.h:8:17: warning: '#pragma comment linker' ignored [-Wignored-pragmas]
+#pragma comment(linker, "/nodefaultlib:libc.lib")
+                ^
+C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/stdafx.h:9:17: warning: '#pragma comment linker' ignored [-Wignored-pragmas]
+#pragma comment(linker, "/nodefaultlib:libcd.lib")
+                ^
+C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/kmeans.cpp:236:17: warning: format specifies type 'double' but the argument has type 'int' [-Wformat]
+                printf("%f ", gains[nc]);
+                        ~~    ^~~~~~~~~
+                        %d
+3 warnings generated.
+In file included from C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/memalc.cpp:1:
+C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/stdafx.h:8:17: warning: '#pragma comment linker' ignored [-Wignored-pragmas]
+#pragma comment(linker, "/nodefaultlib:libc.lib")
+                ^
+C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/stdafx.h:9:17: warning: '#pragma comment linker' ignored [-Wignored-pragmas]
+#pragma comment(linker, "/nodefaultlib:libcd.lib")
+                ^
+2 warnings generated.
+In file included from C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/Obs.cpp:1:
+C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/stdafx.h:8:17: warning: '#pragma comment linker' ignored [-Wignored-pragmas]
+#pragma comment(linker, "/nodefaultlib:libc.lib")
+                ^
+C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/stdafx.h:9:17: warning: '#pragma comment linker' ignored [-Wignored-pragmas]
+#pragma comment(linker, "/nodefaultlib:libcd.lib")
+                ^
+C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/Obs.cpp:79:3: warning: 'delete' applied to a pointer that was allocated with 'new[]'; did you mean 'delete[]'? [-Wmismatched-new-delete]
+                delete tmp;
+                ^
+                      []
+C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/Obs.cpp:73:16: note: allocated with 'new[]' here
+                char * tmp = new char[512];
+                             ^
+C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/Obs.cpp:176:51: warning: illegal character encoding in string literal [-Winvalid-source-encoding]
+                printf("L'observation n'est pas encore initialis<E9>e!\n");
+                                                                ^~~~
+4 warnings generated.
+In file included from C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/pca.cpp:5:
+C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/stdafx.h:8:17: warning: '#pragma comment linker' ignored [-Wignored-pragmas]
+#pragma comment(linker, "/nodefaultlib:libc.lib")
+                ^
+C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/stdafx.h:9:17: warning: '#pragma comment linker' ignored [-Wignored-pragmas]
+#pragma comment(linker, "/nodefaultlib:libcd.lib")
+                ^
+2 warnings generated.
+In file included from C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/signature.cpp:1:
+C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/stdafx.h:8:17: warning: '#pragma comment linker' ignored [-Wignored-pragmas]
+#pragma comment(linker, "/nodefaultlib:libc.lib")
+                ^
+C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/stdafx.h:9:17: warning: '#pragma comment linker' ignored [-Wignored-pragmas]
+#pragma comment(linker, "/nodefaultlib:libcd.lib")
+                ^
+2 warnings generated.
+In file included from C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/statistics.cpp:1:
+C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/stdafx.h:8:17: warning: '#pragma comment linker' ignored [-Wignored-pragmas]
+#pragma comment(linker, "/nodefaultlib:libc.lib")
+                ^
+C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/stdafx.h:9:17: warning: '#pragma comment linker' ignored [-Wignored-pragmas]
+#pragma comment(linker, "/nodefaultlib:libcd.lib")
+                ^
+2 warnings generated.
+In file included from C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/stdafx.cpp:5:
+C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/stdafx.h:8:17: warning: '#pragma comment linker' ignored [-Wignored-pragmas]
+#pragma comment(linker, "/nodefaultlib:libc.lib")
+                ^
+C:/development/Maxilas/signature-master/signature-master/app/src/main/jni/swig/stdafx.h:9:17: warning: '#pragma comment linker' ignored [-Wignored-pragmas]
+#pragma comment(linker, "/nodefaultlib:libcd.lib")
+                ^
+2 warnings generated.

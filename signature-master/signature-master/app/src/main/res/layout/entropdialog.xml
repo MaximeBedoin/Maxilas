@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/layout_root"
+    android:layout_width="500dp"
+    android:layout_height="300dp"
+	android:gravity="center"
+    android:background="@drawable/borderbase">
+    <TextView
+        android:id="@+id/label"
+		android:layout_width="100dp"
+		android:layout_height="100dp"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentRight="true"
+		android:layout_marginLeft="72dp"
+		android:layout_marginTop="5sp"
+		android:layout_marginRight="71dp"
+		android:textColor="#ffffff"
+		android:gravity="center"
+		android:textSize="18sp"/>
+</RelativeLayout>

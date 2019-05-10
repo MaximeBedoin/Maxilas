@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/background3"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+		android:orientation="horizontal">
+
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:orientation="vertical">
+
+			<TextView
+				android:id="@+id/TextView1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="50sp"
+				android:layout_marginTop="40sp"
+				android:layout_marginRight="50sp"
+				android:layout_marginBottom="10sp"
+				android:layout_weight="1"
+				android:text="@string/enter_username"
+				android:textColor="#000000"
+				android:textSize="22.3sp"></TextView>
+
+			<EditText
+				android:id="@+id/editTextname"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="45sp"
+				android:layout_marginRight="45sp"
+				android:layout_weight="1"
+				android:singleLine="true"></EditText>
+
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_weight="1"
+				android:orientation="horizontal">
+
+				<LinearLayout
+					android:id="@+id/linearLayout1"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:layout_weight="1"
+					android:orientation="vertical">
+
+					<Button
+						android:id="@+id/buttonOk"
+						android:layout_width="100sp"
+						android:layout_height="50sp"
+						android:layout_gravity="center"
+						android:layout_marginLeft="14sp"
+						android:layout_marginTop="20sp"
+						android:gravity="center"
+						android:text="Small"></Button>
+				</LinearLayout>
+
+
+				<LinearLayout
+					android:id="@+id/linearLayout2"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:layout_weight="1"
+					android:orientation="vertical">
+
+					<Button
+						android:id="@+id/buttonMedium"
+						android:layout_width="100sp"
+						android:layout_height="50sp"
+						android:layout_gravity="center"
+						android:layout_marginLeft="14sp"
+						android:layout_marginTop="20sp"
+						android:gravity="center"
+						android:text="Medium"></Button>
+				</LinearLayout>
+
+
+				<LinearLayout
+					android:id="@+id/linearLayout3"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:layout_weight="1"
+					android:orientation="vertical">
+
+					<Button
+						android:id="@+id/buttonBig"
+						android:layout_width="100sp"
+						android:layout_height="50sp"
+						android:layout_gravity="center"
+						android:layout_marginLeft="14sp"
+						android:layout_marginTop="20sp"
+						android:gravity="center"
+						android:text="Big"></Button>
+				</LinearLayout>
+			</LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/linearLayout4"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:layout_weight="1"
+					android:orientation="vertical"
+					android:gravity="center">
+
+					<Button
+						android:id="@+id/buttoncancel"
+						android:layout_width="100sp"
+						android:layout_height="50sp"
+						android:layout_gravity="center"
+						android:layout_marginTop="20sp"
+						android:layout_marginRight="14sp"
+						android:gravity="center"
+						android:text="@string/cancel"></Button>
+				</LinearLayout>
+
+		</LinearLayout>
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+		android:orientation="horizontal">
+
+		<Spinner
+			android:id="@+id/spinner2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="0dp"
+			android:layout_marginTop="50dp"
+			android:layout_marginRight="0dp"
+			android:layout_marginBottom="50dp"
+			android:layout_weight="1"
+			android:prompt="@string/number_of_signatures"></Spinner>
+	</LinearLayout>
+
+</LinearLayout>

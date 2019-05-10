@@ -1,0 +1,1 @@
+make: `C:/development/Maxilas/signature-master/signature-master/app/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libswig.so' is up to date.

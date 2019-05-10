@@ -1,0 +1,80 @@
+{
+  "buildFiles": [
+    "C:\\development\\Maxilas\\signature-master\\signature-master\\app\\src\\main\\jni\\Android.mk"
+  ],
+  "cleanCommands": [
+    "C:\\development\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\development\\Maxilas\\signature-master\\signature-master\\app\\src\\main\\jni\\Android.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dC:/development/Maxilas/signature-master/signature-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dC:\\development\\Maxilas\\signature-master\\signature-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib clean"
+  ],
+  "libraries": {
+    "swig-debug-arm64-v8a": {
+      "buildCommand": "C:\\development\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\development\\Maxilas\\signature-master\\signature-master\\app\\src\\main\\jni\\Android.mk APP_ABI\u003darm64-v8a NDK_ALL_ABIS\u003darm64-v8a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dC:/development/Maxilas/signature-master/signature-master/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dC:\\development\\Maxilas\\signature-master\\signature-master\\app\\build\\intermediates\\ndkBuild\\debug\\lib C:/development/Maxilas/signature-master/signature-master/app/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/libswig.so",
+      "toolchain": "toolchain-arm64-v8a",
+      "abi": "arm64-v8a",
+      "artifactName": "swig",
+      "files": [
+        {
+          "src": "C:\\development\\Maxilas\\signature-master\\signature-master\\app\\src\\main\\jni\\swig\\GMM_SHORT.cpp",
+          "flags": "-target aarch64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/development/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -O0 -UNDEBUG -fno-limit-debug-info -IC:/development/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IC:/development/Maxilas/signature-master/signature-master/app/src/main/jni -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "C:\\development\\Maxilas\\signature-master\\signature-master\\app\\src\\main\\jni\\swig\\Obs.cpp",
+          "flags": "-target aarch64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/development/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -O0 -UNDEBUG -fno-limit-debug-info -IC:/development/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IC:/development/Maxilas/signature-master/signature-master/app/src/main/jni -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "C:\\development\\Maxilas\\signature-master\\signature-master\\app\\src\\main\\jni\\swig\\dtw.cpp",
+          "flags": "-target aarch64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/development/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -O0 -UNDEBUG -fno-limit-debug-info -IC:/development/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IC:/development/Maxilas/signature-master/signature-master/app/src/main/jni -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "C:\\development\\Maxilas\\signature-master\\signature-master\\app\\src\\main\\jni\\swig\\global_signature.cpp",
+          "flags": "-target aarch64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/development/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -O0 -UNDEBUG -fno-limit-debug-info -IC:/development/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IC:/development/Maxilas/signature-master/signature-master/app/src/main/jni -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "C:\\development\\Maxilas\\signature-master\\signature-master\\app\\src\\main\\jni\\swig\\gmm.cpp",
+          "flags": "-target aarch64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/development/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -O0 -UNDEBUG -fno-limit-debug-info -IC:/development/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IC:/development/Maxilas/signature-master/signature-master/app/src/main/jni -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "C:\\development\\Maxilas\\signature-master\\signature-master\\app\\src\\main\\jni\\swig\\hmm.cpp",
+          "flags": "-target aarch64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/development/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -O0 -UNDEBUG -fno-limit-debug-info -IC:/development/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IC:/development/Maxilas/signature-master/signature-master/app/src/main/jni -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "C:\\development\\Maxilas\\signature-master\\signature-master\\app\\src\\main\\jni\\swig\\kmeans.cpp",
+          "flags": "-target aarch64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/development/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -O0 -UNDEBUG -fno-limit-debug-info -IC:/development/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IC:/development/Maxilas/signature-master/signature-master/app/src/main/jni -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "C:\\development\\Maxilas\\signature-master\\signature-master\\app\\src\\main\\jni\\swig\\memalc.cpp",
+          "flags": "-target aarch64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/development/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -O0 -UNDEBUG -fno-limit-debug-info -IC:/development/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IC:/development/Maxilas/signature-master/signature-master/app/src/main/jni -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "C:\\development\\Maxilas\\signature-master\\signature-master\\app\\src\\main\\jni\\swig\\pca.cpp",
+          "flags": "-target aarch64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/development/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -O0 -UNDEBUG -fno-limit-debug-info -IC:/development/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IC:/development/Maxilas/signature-master/signature-master/app/src/main/jni -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "C:\\development\\Maxilas\\signature-master\\signature-master\\app\\src\\main\\jni\\swig\\signature.cpp",
+          "flags": "-target aarch64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/development/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -O0 -UNDEBUG -fno-limit-debug-info -IC:/development/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IC:/development/Maxilas/signature-master/signature-master/app/src/main/jni -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "C:\\development\\Maxilas\\signature-master\\signature-master\\app\\src\\main\\jni\\swig\\signature_wrap.cpp",
+          "flags": "-target aarch64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/development/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -O0 -UNDEBUG -fno-limit-debug-info -IC:/development/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IC:/development/Maxilas/signature-master/signature-master/app/src/main/jni -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "C:\\development\\Maxilas\\signature-master\\signature-master\\app\\src\\main\\jni\\swig\\statistics.cpp",
+          "flags": "-target aarch64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/development/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -O0 -UNDEBUG -fno-limit-debug-info -IC:/development/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IC:/development/Maxilas/signature-master/signature-master/app/src/main/jni -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "C:\\development\\Maxilas\\signature-master\\signature-master\\app\\src\\main\\jni\\swig\\stdafx.cpp",
+          "flags": "-target aarch64-none-linux-android21 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/development/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -O0 -UNDEBUG -fno-limit-debug-info -IC:/development/sdk/ndk-bundle/build//../sources/cxx-stl/system/include -IC:/development/Maxilas/signature-master/signature-master/app/src/main/jni -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        }
+      ],
+      "output": "C:\\development\\Maxilas\\signature-master\\signature-master\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\arm64-v8a\\libswig.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-arm64-v8a": {
+      "cppCompilerExecutable": "C:\\development\\sdk\\ndk-bundle\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

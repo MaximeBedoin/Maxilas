@@ -1,0 +1,15 @@
+[armeabi-v7a] Compile++ thumb: swig <= dtw.cpp
+[armeabi-v7a] Compile++ thumb: swig <= global_signature.cpp
+[armeabi-v7a] Compile++ thumb: swig <= gmm.cpp
+[armeabi-v7a] Compile++ thumb: swig <= GMM_SHORT.cpp
+[armeabi-v7a] Compile++ thumb: swig <= hmm.cpp
+[armeabi-v7a] Compile++ thumb: swig <= kmeans.cpp
+[armeabi-v7a] Compile++ thumb: swig <= memalc.cpp
+[armeabi-v7a] Compile++ thumb: swig <= Obs.cpp
+[armeabi-v7a] Compile++ thumb: swig <= pca.cpp
+[armeabi-v7a] Compile++ thumb: swig <= signature.cpp
+[armeabi-v7a] Compile++ thumb: swig <= signature_wrap.cpp
+[armeabi-v7a] Compile++ thumb: swig <= statistics.cpp
+[armeabi-v7a] Compile++ thumb: swig <= stdafx.cpp
+[armeabi-v7a] StaticLibrary  : libstdc++.a
+[armeabi-v7a] SharedLibrary  : libswig.so
